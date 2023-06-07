@@ -1,7 +1,7 @@
 n=list(input('Enter number:'))
 n=[eval(i) for i in n]
 z=['Twenty','Thirty','Fourty','Fifty','Sixty','Seventy','Eighty','Ninety']
-x=['One','Two','Three','Four','Five','Six','Seven','Eight','Nine']
+x=['One','Two','Three','Four','Five','Six','Seven','Eight','Nine' ]
 if len(n)==1 and n[0]==0:
     print('Zero')
 elif len(n)==1:
